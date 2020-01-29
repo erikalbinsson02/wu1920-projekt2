@@ -1,0 +1,33 @@
+body{
+background-color: aquamarine;
+grid-template-columns: 1;
+grid-template-rows: 3;
+}
+header{
+width: auto;
+height: 100px;
+background-color: blueviolet;
+}
+article{
+width: auto;
+height: 300px;
+background-color: red;
+}
+section{
+    display: block;
+    width: auto;
+    height: 100px;
+    background-color: black;
+}
+.knapp{
+    background-color: blue;
+    height: 50px;
+}
+#welcome{
+    width: 100%;
+    height: 100px;
+}
+#Bild{
+    width: 100%;
+    height: 300px;
+}
