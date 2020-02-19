@@ -1,32 +1,52 @@
 body{
 background-color: aquamarine;
+display:grid;
 grid-template-columns: 1;
-grid-template-rows: 3;
+grid-template-rows: 6;
 }
 header{
 width: auto;
 height: 100px;
 background-color: blueviolet;
+grid-row: 1;
 }
 
 section{
     display: flex;
     width: auto;
-    background-color: green;
-    justify-content: space-around;
+    background-color:  rgb(84, 231, 182);
+    justify-content: space-between;
+}
+#bild{
+    grid-row: 2;
 }
 .genre{
-  
-   
+  grid-row: 3;
+  width: 80px;
 }
-.knapp{
-    background-color: blue;
+
+.bok1{
     height: 150px;
     width: auto;
-    
-    
-    
 }
+.section1{
+grid-row: 4;
+
+}
+#h2{
+    grid-row: 5;
+    height: 20px;
+    margin: 12px 0px 7px 0px;
+}
+.bok2{
+height: 150px;
+width: auto;
+}
+.section2{
+    
+    grid-row: 6;
+}
+
 #welcome{
     width: 100%;
     height: 100px;
@@ -36,6 +56,15 @@ section{
     height: 300px;
 }
 
+footer{
+    height: 100px;
+    background-color: rgb(181, 245, 224);
+    padding-top: 200px;
+}
+
+.button2{
+    background-color: rgb(54, 243, 180);
+}
 
 
 
