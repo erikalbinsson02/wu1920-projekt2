@@ -56,15 +56,17 @@ width: auto;
     height: 300px;
 }
 
-footer{
-    height: 100px;
-    background-color: rgb(181, 245, 224);
-    padding-top: 200px;
-}
 
 .button2{
     background-color: rgb(54, 243, 180);
 }
 
+footer{ 
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: rgb(181, 245, 224);
+    padding-top: 150px;
+}
 
 
