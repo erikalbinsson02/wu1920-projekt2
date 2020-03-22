@@ -4,27 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hemsida</title>
+    <title>Booklet</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header> <img id= "header" src="img/Nyheader1.png" alt="Booklet"></header>
-    <article> <img id= "Bild" src="img/article_ph.jpeg" alt="Bild"> </article>
-    <button class = "genre"> <p>Genre</p> </button>
+    <nav> 
+        <a class="nav_link" href="index.html">Hem  </a>  
+        <a class="nav_link" href="url"> Profil  </a>
+        <a class="nav_link" href="url"> Inställningar</a>
+    </nav>
+    <section class="section5">
+     
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <button class = "genre"> <p>Populärt</p> </button>  
+        </a>
+    <div class="topnav">
+        <a href="#home" class="active"></a>
+        <div id="myLinks">
+          <a class= "nav_link" href="">Action</a>
+          <a class= "nav_link" href="">Äventyr</a>
+          <a class= "nav_link" href="">Drama</a>
+          <a class= "nav_link" href="">Deckare</a>
+          <a class= "nav_link" href="">Populärt</a>
+          <a class= "nav_link" href="">Romantik</a>
+        </div>
+     
+      </div>
+    
+</section>
    
     
     <section class= "section1"> 
-    <article><img class= "bok1" src="img/vintage-woman-magazine-cover.jpg" alt="Bild"></article>
+    <article> <a href="bok_beskrivning.html" ><img class= "bok1" src="img/vintage-woman-magazine-cover.jpg" alt="Bild"></a></article>
     <article><img class= "bok1" src="img/vintage-woman-magazine-cover.jpg" alt="Bild"></article>
     <article><img class= "bok1" src="img/vintage-woman-magazine-cover.jpg" alt="Bild"></article>
     <article><img class= "bok1" src="img/vintage-woman-magazine-cover.jpg" alt="Bild"></article>
     <article><img class= "bok1" src="img/vintage-woman-magazine-cover.jpg" alt="Bild"></article>
 
-    <button class = "button2"><img class= "arrow" src="img/keyboard_arrow_right-24px.svg" alt="Bild"></button>
+    <button class = "button2"><img class= "arrow" src="img/keyboard_arrow_right-24px.svg" alt="Klicka för fler böcker"></button>
     </section>
-    <h2 id= "h2">Senaste använda</h2>
+    <h2 id= "h2">Senast använda</h2>
     <section class= "section2">
-    <article><img class= "bok2" src="img/Flowers.png" alt="Bild"></article>
+    <article><a href="bok_beskrivning2.html"><img class= "bok2" src="img/Flowers.png" alt="Bild"></a></article>
     <article><img class= "bok2" src="img/Flowers.png" alt="Bild"></article>
     <article><img class= "bok2" src="img/Flowers.png" alt="Bild"></article>
     <article><img class= "bok2" src="img/Flowers.png" alt="Bild"></article>
@@ -36,9 +58,9 @@
     <footer>
     <div id = "footer1"> <h3>Kontaktuppgifter: </h3> <p>Telefon-17284739</p> <p>Gmail-lars@per.se</p> </div>
     <div id = "footer2"> <h3>Adresser</h3> <p>Huvudkontor-w.g 657s</p> <p>Fabrik-Q.g 77560t</p>  </div>
-    <div id = "footer3"> <h3>Om oss</h3> <p>Självbiografi - <a href="exempel">Lars pers</a> </p> <p>Värdesättningar - <a href="exempel">Värderingar</a> </p></div>
+    <div id = "footer3"> <h3>Om oss</h3> <p>Planering - <a href="misc/planering.html">Planering</a> </p> <p>Värdesättningar - <a href="exempel">Värderingar</a> </p></div>
     </footer>
     
-    
+<script src="js/javascript.js"></script>  
 </body>
 </html>
