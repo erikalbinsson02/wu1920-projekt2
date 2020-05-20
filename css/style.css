@@ -1,8 +1,7 @@
 body{
 background-color: aquamarine;
 display:grid;
-grid-template-columns: 1;
-grid-template-rows: 6;
+
 }
 
 header{
@@ -63,6 +62,15 @@ grid-row: 4;
 height: 150px;
 width: auto;
 }
+#bok2stor_bild{
+    width: 100%;
+    height: auto;
+}
+#bok1stor_bild{
+    width: 100%;
+    height: auto;
+}
+
 .section2{
     
     grid-row: 6;
@@ -181,6 +189,10 @@ padding: 1%;
         height: 200px;
         width: auto;
     }
+#bok2stor_bild{
+    height: 200px;
+    width: auto;
+    }
     .bok_namn{
         grid-row: 1;
         grid-column: 1;
@@ -195,6 +207,7 @@ padding: 1%;
     .tillbaka_läs{
         grid-row: 2;
         grid-column: 1;
+        margin-top: 50%;
     }
     
     .bok1stor{
@@ -211,5 +224,24 @@ padding: 1%;
     .knapp_text{
         margin: 0px;
     }
-
-    }
+.bok1{ 
+    width: 100%;
+    height: auto;
+}
+.bok2{
+    width: 100%;
+    height: auto;
+}
+.beskrivning{
+    font-size: 12px;
+}
+.footer_text{
+    font-size: 12px;
+}
+.footer_rubrik{
+font-size: 14px;
+}
+footer{
+    padding-top: 50px;
+}
+}
